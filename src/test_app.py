@@ -1,6 +1,6 @@
 import cantools
 import csv
-
+from datetime import datetime
 
 def load_dbc_files(dbc_files):
     """
@@ -51,8 +51,10 @@ def decode_messages(messages, db):
     for msg in messages:
         try:
             decoded = db.decode_message(msg["id"], bytes(msg["data"]))
+            # Convert timestamp to datetime and format it 
+            timestamp = datetime.fromtimestamp(msg["timestamp"]).strftime('%Y-%m-%d %H:%M:%S.%f')
             decoded_messages.append({
-                "timestamp": msg["timestamp"],
+                "timestamp": timestamp,
                 "message_id": f"0x{msg['id']:X}",
                 "decoded_data": decoded
             })
