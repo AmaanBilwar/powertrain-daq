@@ -74,8 +74,8 @@ def save_decoded_messages(decoded_messages, output_file):
 
 def main():
     # File paths
-    raw_log_file = "2-13-25.txt"  # Replace with your raw CAN log file path
-    dbc_files = ["file1.dbc", "file2.dbc"]  # Replace with your DBC file paths
+    raw_log_file = "raw_can_files/2-13-25.txt"  
+    dbc_files = ["dbc_files/EV3_Vehicle_Bus.dbc", "dbc_files/RMS.dbc"]  
     output_file = "decoded_can_messages.csv"
 
     # Load DBC files
