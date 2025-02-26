@@ -1,4 +1,4 @@
-# Explanation of the script 'test-app.py' under `src/`
+# Explanation of the script 'can_decoder.py' under `src/`
 1. Load Multiple DBC Files:
     The load_dbc_files function combines multiple DBC files into a single cantools.database.Database object.
 
