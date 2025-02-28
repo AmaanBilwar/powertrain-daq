@@ -52,7 +52,7 @@ def decode_messages(messages, db):
         try:
             decoded = db.decode_message(msg["id"], bytes(msg["data"]))
             # Convert timestamp to datetime and format it 
-            timestamp = datetime.fromtimestamp(msg["timestamp"]).strftime('%Y-%m-%d %H:%M:%S.%f')
+            timestamp = datetime.fromtimestamp(msg["timestamp"]).strftime('%Y-%m-%dT%H:%M:%SZ')
             decoded_messages.append({
                 "timestamp": timestamp,
                 "message_id": f"0x{msg['id']:X}",
