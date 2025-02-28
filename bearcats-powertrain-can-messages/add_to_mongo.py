@@ -21,7 +21,6 @@ try:
         print("Attempting to connect to MongoDB...")
         client.admin.command('ping')
         print("Successfully connected to MongoDB!")
-        
         db = client['can-messsages']
         collection = db['messages']
         
