@@ -1,6 +1,3 @@
-#datatype measurement, dateTime:RFC3339, string, string
-#group false, false, false, false
-#default _result,,,,,
 timestamp,message_id,decoded_data
 1970-01-01T00:14:15Z,0xB0,"{'Fast_Torque_Command': 0.0, 'Fast_Torque_Feedback': 0.0, 'Fast_Motor_Speed': 0, 'Fast_DC_Bus_Voltage': 1.0}"
 1970-01-01T00:14:15Z,0xB0,"{'Fast_Torque_Command': 0.0, 'Fast_Torque_Feedback': 0.0, 'Fast_Motor_Speed': 0, 'Fast_DC_Bus_Voltage': 0.5}"
