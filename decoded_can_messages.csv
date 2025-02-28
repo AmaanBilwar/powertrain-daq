@@ -1,4 +1,4 @@
-timestamp,message_id,decoded_data
+#timestamp,message_id,decoded_data
 1970-01-01 00:14:15.799630,0xB0,"{'Fast_Torque_Command': 0.0, 'Fast_Torque_Feedback': 0.0, 'Fast_Motor_Speed': 0, 'Fast_DC_Bus_Voltage': 1.0}"
 1970-01-01 00:14:15.802450,0xB0,"{'Fast_Torque_Command': 0.0, 'Fast_Torque_Feedback': 0.0, 'Fast_Motor_Speed': 0, 'Fast_DC_Bus_Voltage': 0.5}"
 1970-01-01 00:14:15.805610,0xB0,"{'Fast_Torque_Command': 0.0, 'Fast_Torque_Feedback': 0.1, 'Fast_Motor_Speed': 0, 'Fast_DC_Bus_Voltage': 1.4000000000000001}"
