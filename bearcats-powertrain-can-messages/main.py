@@ -80,7 +80,7 @@ def upload_to_cosmos(data_directory=None, database_name="can-database", containe
         container_name: Name of the Cosmos DB container
     """
     # Import required libraries for Cosmos DB
-    from azure.cosmos import CosmosClient, exceptions
+    from azure.cosmos import CosmosClient, exceptions, PartitionKey
     
     # Set default directory to current directory if not specified
     if data_directory is None:
@@ -114,7 +114,7 @@ def upload_to_cosmos(data_directory=None, database_name="can-database", containe
         print(f"Creating container: {container_name}")
         container = database.create_container(
             id=container_name,
-            partition_key_path="/id",
+            partition_key=PartitionKey(path="/id"),
             offer_throughput=400
         )
     
