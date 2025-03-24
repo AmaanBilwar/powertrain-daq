@@ -1,0 +1,5015 @@
+[
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.0,
+      "D3_Power_On_Timer": 188.32500000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": -0.1,
+      "D4_Iq": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.8,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 4.1000000000000005,
+      "D4_VBC_Vq_Voltage": 1.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.0,
+      "D2_Phase_B_Current": 0.0,
+      "D3_Phase_C_Current": -0.7000000000000001,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.70000000000005,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.3
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.7000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.0,
+      "D3_Power_On_Timer": 188.427
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": -0.8,
+      "D4_Iq": -0.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 1.4000000000000001,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 1.8,
+      "D4_VBC_Vq_Voltage": 1.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.5,
+      "D2_Phase_B_Current": 0.0,
+      "D3_Phase_C_Current": -0.1,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.6,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.3
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.0,
+      "D3_Power_On_Timer": 188.529
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": 0.2,
+      "D4_Iq": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.8,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 3.1,
+      "D4_VBC_Vq_Voltage": 0.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": -0.1,
+      "D2_Phase_B_Current": -0.2,
+      "D3_Phase_C_Current": 0.0,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.90000000000003,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.3
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": -0.1,
+      "D3_Power_On_Timer": 188.631
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": 0.8,
+      "D4_Iq": -0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.8,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 2.2,
+      "D4_VBC_Vq_Voltage": 1.6
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.5,
+      "D2_Phase_B_Current": 0.30000000000000004,
+      "D3_Phase_C_Current": 0.4,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.90000000000003,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.4,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.30000000000000004,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.30000000000000004,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.30000000000000004,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 188.733
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": -0.5,
+      "D4_Iq": 0.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.30000000000000004,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 3.6,
+      "D4_VBC_Vq_Voltage": 0.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.4,
+      "D2_Phase_B_Current": 0.0,
+      "D3_Phase_C_Current": 0.2,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.8,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": -0.1,
+      "D3_Power_On_Timer": 188.835
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": 0.0,
+      "D4_Iq": -0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 1.0,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 3.1,
+      "D4_VBC_Vq_Voltage": -0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": -0.30000000000000004,
+      "D2_Phase_B_Current": 0.0,
+      "D3_Phase_C_Current": -0.2,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 344.0,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.0,
+      "D3_Power_On_Timer": 188.937
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": -0.30000000000000004,
+      "D4_Iq": -0.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.5,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 1.3,
+      "D4_VBC_Vq_Voltage": 1.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.0,
+      "D2_Phase_B_Current": 0.2,
+      "D3_Phase_C_Current": -0.1,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.8,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.4000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.0,
+      "D3_Power_On_Timer": 189.03900000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": -1.9000000000000001,
+      "D4_Iq": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.8,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 1.8,
+      "D4_VBC_Vq_Voltage": 0.7000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 1.0,
+      "D2_Phase_B_Current": 0.9,
+      "D3_Phase_C_Current": 0.5,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.8,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": -0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.2,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.0,
+      "D3_Power_On_Timer": 189.141
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": 0.0,
+      "D4_Iq": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 0.8,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 3.6,
+      "D4_VBC_Vq_Voltage": -0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.0,
+      "D2_Phase_B_Current": 0.0,
+      "D3_Phase_C_Current": 0.7000000000000001,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.70000000000005,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.9000000000000001
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.5
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.30000000000000004,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.30000000000000004,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xC0",
+    "data": {
+      "Torque_Command": 0.0,
+      "Speed_Command": 0,
+      "Direction_Command": "CCW",
+      "Inverter_Enable": "Turn the inverter OFF",
+      "Inverter_Discharge": "Discharge Disable",
+      "Speed_Mode_Enable": 0,
+      "RollingCounter": 0,
+      "Torque_Limit_Command": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.8
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.1,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.2000000000000002
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAC",
+    "data": {
+      "D1_Commanded_Torque": 0.0,
+      "D2_Torque_Feedback": 0.1,
+      "D3_Power_On_Timer": 189.243
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAB",
+    "data": {
+      "D1_Post_Fault_Lo": 0,
+      "D2_Post_Fault_Hi": 0,
+      "D3_Run_Fault_Lo": 0,
+      "D4_Run_Fault_Hi": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xAA",
+    "data": {
+      "D1_VSM_State": "VSM wait state",
+      "D1_PWM_Frequency": 0,
+      "D2_Inverter_State": "Idle Stop",
+      "D3_Relay_1_Status": 0,
+      "D3_Relay_2_Status": 0,
+      "D3_Relay_3_Status": 0,
+      "D3_Relay_4_Status": 0,
+      "D3_Relay_5_Status": 0,
+      "D3_Relay_6_Status": 0,
+      "D4_Inverter_Run_Mode": 0,
+      "D4_Inverter_Discharge_State": 0,
+      "D5_Inverter_Command_Mode": 0,
+      "D5_Rolling_Counter": 0,
+      "D6_Inverter_Enable_State": 0,
+      "D6_Start_Mode_Active": 0,
+      "D6_Inverter_Enable_Lockout": 0,
+      "D7_Direction_Command": 1,
+      "D7_BMS_Active": 0,
+      "D7_BMS_Torque_Limiting": 0,
+      "D7_Max_Speed_Limiting": 0,
+      "D7_Low_Speed_Limiting": 0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA8",
+    "data": {
+      "D1_Flux_Command": 0.034,
+      "D2_Flux_Feedback": -1.143,
+      "D3_Id": -1.0,
+      "D4_Iq": 0.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA7",
+    "data": {
+      "D1_DC_Bus_Voltage": 1.0,
+      "D2_Output_Voltage": 0.0,
+      "D3_VAB_Vd_Voltage": 2.2,
+      "D4_VBC_Vq_Voltage": 1.1
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA6",
+    "data": {
+      "D1_Phase_A_Current": 0.0,
+      "D2_Phase_B_Current": 0.0,
+      "D3_Phase_C_Current": -0.2,
+      "D4_DC_Bus_Current": 0.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xA5",
+    "data": {
+      "D1_Motor_Angle_Electrical": 343.8,
+      "D2_Motor_Speed": 0,
+      "D3_Electrical_Output_Frequency": 0.0,
+      "D4_Delta_Resolver_Filtered": 16.2
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 1.0
+    }
+  },
+  {
+    "timestamp": "1970-01-01T00:14:16Z",
+    "message_id": "0xB0",
+    "data": {
+      "Fast_Torque_Command": 0.0,
+      "Fast_Torque_Feedback": 0.0,
+      "Fast_Motor_Speed": 0,
+      "Fast_DC_Bus_Voltage": 0.30000000000000004
+    }
+  }
+]
