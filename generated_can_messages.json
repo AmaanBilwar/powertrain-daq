@@ -1,0 +1,675 @@
+[
+  {
+    "timestamp": "2025-04-02T23:26:02.657713",
+    "can_id": "0xab",
+    "name": "M171_Fault_Codes",
+    "signals": {
+      "D1_Post_Fault_Lo": 62005,
+      "D2_Post_Fault_Hi": 7287,
+      "D3_Run_Fault_Lo": 36279,
+      "D4_Run_Fault_Hi": 61721
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:25:04.823646",
+    "can_id": "0x2",
+    "name": "ECU_FAULTS",
+    "signals": {
+      "APPS_BRAKE_AND_ACCEL": 14,
+      "APPS_PEDAL_IMPLAUSIBILITY": 94,
+      "APPS_PEDAL_DISCONNECTED": 64,
+      "BPS_LOW_PRESSURE": 64,
+      "OVER_POWER": 59,
+      "OVER_CURRENT": 55,
+      "CRITICAL_FAULT": 92,
+      "ANY_FAULT": 100
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:45:55.706517",
+    "can_id": "0xab",
+    "name": "M171_Fault_Codes",
+    "signals": {
+      "D1_Post_Fault_Lo": 5452,
+      "D2_Post_Fault_Hi": 60724,
+      "D3_Run_Fault_Lo": 18428,
+      "D4_Run_Fault_Hi": 21109
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:23:25.341948",
+    "can_id": "0x1d5",
+    "name": "M188_U2C_Message_Rxd",
+    "signals": {
+      "D1_HV_Input_Current_Sensor_Validity": 0,
+      "D2_14V_Master_Fault": 1,
+      "D3_HV_Input_Current": 188,
+      "D4_DTC_Status": 2,
+      "D5_DTC_Index": 21,
+      "D6_14V_Monitor": 167,
+      "D7_14V_Conditional": 1,
+      "D8_14V_Current_Monitor": 107
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:35:15.999554",
+    "can_id": "0xa9",
+    "name": "M169_Internal_Voltages",
+    "signals": {
+      "D1_Reference_Voltage_1_5": 110.72,
+      "D2_Reference_Voltage_2_5": 225.08,
+      "D3_Reference_Voltage_5_0": -102.65,
+      "D4_Reference_Voltage_12_0": 111.66
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:01:57.254066",
+    "can_id": "0xad",
+    "name": "M173_Modulation_And_Flux_Info",
+    "signals": {
+      "D1_Modulation_Index": -0.82,
+      "D2_Flux_Weakening_Output": -2891.26,
+      "D3_Id_Command": -2834.88,
+      "D4_Iq_Command": -654.46
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:34:58.321401",
+    "can_id": "0xc2",
+    "name": "M194_Read_Write_Param_Response",
+    "signals": {
+      "D1_Parameter_Address_Response": 51784,
+      "D2_Write_Success": 1,
+      "D3_Data_Response": 14802
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:50:39.183365",
+    "can_id": "0xa0",
+    "name": "M160_Temperature_Set_1",
+    "signals": {
+      "D1_Module_A": -3115.89,
+      "D2_Module_B": 2346.23,
+      "D3_Module_C": 978.18,
+      "D4_Gate_Driver_Board": 1232.15
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:05:44.697622",
+    "can_id": "0xab",
+    "name": "M171_Fault_Codes",
+    "signals": {
+      "D1_Post_Fault_Lo": 20890,
+      "D2_Post_Fault_Hi": 11787,
+      "D3_Run_Fault_Lo": 23483,
+      "D4_Run_Fault_Hi": 8191
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:21:46.251875",
+    "can_id": "0xa5",
+    "name": "M165_Motor_Position_Info",
+    "signals": {
+      "D1_Motor_Angle_Electrical": 3206.8,
+      "D2_Motor_Speed": -8854,
+      "D3_Electrical_Output_Frequency": 1120.35,
+      "D4_Delta_Resolver_Filtered": -611.6
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:58:07.551023",
+    "can_id": "0xa0",
+    "name": "M160_Temperature_Set_1",
+    "signals": {
+      "D1_Module_A": -1864.8,
+      "D2_Module_B": 638.01,
+      "D3_Module_C": -111.22,
+      "D4_Gate_Driver_Board": -2788.81
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:40:30.719297",
+    "can_id": "0xc2",
+    "name": "M194_Read_Write_Param_Response",
+    "signals": {
+      "D1_Parameter_Address_Response": 39143,
+      "D2_Write_Success": 0,
+      "D3_Data_Response": 5977
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:25:07.737742",
+    "can_id": "0x3",
+    "name": "MC_FAULTS",
+    "signals": {
+      "Fault32_MotorOvrSpd": 53,
+      "Fault33_OvrCurr": 4,
+      "Fault34_OvrVolt": 100,
+      "Fault35_InvOvrTemp": 36,
+      "Fault36_AccInputShorted": 58,
+      "Fault37_AccInputOpn": 84,
+      "Fault38_DirectionCommand": 27,
+      "Fault39_InvResponseTimeOut": 28,
+      "Fault40_HW_Gate_DeSat": 42,
+      "Fault41_HardwareOvrCurrent": 29,
+      "Fault42_UnderVolt": 67,
+      "Fault43_CANCmdMsgLost": 68,
+      "Fault44_MotorOvrTemp": 95,
+      "Fault48_BrakeInputShorted": 97,
+      "Fault49_BrakeInputOpn": 4,
+      "Fault50_ModuleA_OvrTemp": 41,
+      "Fault51_ModuleB_OvrTemp": 97,
+      "Fault52_ModuleC_OvrTemp": 42,
+      "Fault53_PCB_OvrTemp": 76,
+      "Fault54_GateDriveBoard1_OvrTemp": 64,
+      "Fault55_GateDriveBoard2_OvrTemp": 52,
+      "Fault56_GateDriveBoard3_OvrTemp": 13,
+      "Fault57_CurrentSensor": 57,
+      "Fault59_HardwareDCBus_OvrVolt": 19,
+      "Fault62_Resolver_NotConn": 80,
+      "ANY_MC_FAULT": 23
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:48:03.774847",
+    "can_id": "0xa7",
+    "name": "M167_Voltage_Info",
+    "signals": {
+      "D1_DC_Bus_Voltage": 3093.05,
+      "D2_Output_Voltage": 3212.24,
+      "D3_VAB_Vd_Voltage": -689.71,
+      "D4_VBC_Vq_Voltage": 2465.44
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:22:20.239652",
+    "can_id": "0x1d7",
+    "name": "M187_U2C_Command_Txd",
+    "signals": {
+      "D1_ID_Byte": 232,
+      "D2_Setpoint_Calc": 23
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:57:30.312222",
+    "can_id": "0x202",
+    "name": "BMS_Current_Limit",
+    "signals": {
+      "D1_Max_Discharge_Current": 593,
+      "D2_Max_Charge_Current": 750
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:03:09.655157",
+    "can_id": "0x1d5",
+    "name": "M188_U2C_Message_Rxd",
+    "signals": {
+      "D1_HV_Input_Current_Sensor_Validity": 1,
+      "D2_14V_Master_Fault": 1,
+      "D3_HV_Input_Current": 48,
+      "D4_DTC_Status": 3,
+      "D5_DTC_Index": 7,
+      "D6_14V_Monitor": 23,
+      "D7_14V_Conditional": 0,
+      "D8_14V_Current_Monitor": 46
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:16:34.227440",
+    "can_id": "0xb0",
+    "name": "M176_Fast_Info",
+    "signals": {
+      "Fast_Torque_Command": 993.85,
+      "Fast_Torque_Feedback": -1780.31,
+      "Fast_Motor_Speed": -6814,
+      "Fast_DC_Bus_Voltage": -1975.35
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:42:50.277122",
+    "can_id": "0x4",
+    "name": "APPS_Info",
+    "signals": {
+      "APPS0": 54,
+      "APPS1": 59,
+      "APPS_Pct": 32,
+      "Torque_Cmd": 80
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:29:43.771852",
+    "can_id": "0xa6",
+    "name": "M166_Current_Info",
+    "signals": {
+      "D1_Phase_A_Current": -1535.49,
+      "D2_Phase_B_Current": -254.62,
+      "D3_Phase_C_Current": -2360.5,
+      "D4_DC_Bus_Current": 1664.69
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:30:32.794608",
+    "can_id": "0x2",
+    "name": "ECU_FAULTS",
+    "signals": {
+      "APPS_BRAKE_AND_ACCEL": 6,
+      "APPS_PEDAL_IMPLAUSIBILITY": 18,
+      "APPS_PEDAL_DISCONNECTED": 17,
+      "BPS_LOW_PRESSURE": 32,
+      "OVER_POWER": 42,
+      "OVER_CURRENT": 91,
+      "CRITICAL_FAULT": 17,
+      "ANY_FAULT": 35
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:02:40.651985",
+    "can_id": "0xad",
+    "name": "M173_Modulation_And_Flux_Info",
+    "signals": {
+      "D1_Modulation_Index": -1.3,
+      "D2_Flux_Weakening_Output": 1275.62,
+      "D3_Id_Command": -258.37,
+      "D4_Iq_Command": 3104.0
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:21:15.568465",
+    "can_id": "0xab",
+    "name": "M171_Fault_Codes",
+    "signals": {
+      "D1_Post_Fault_Lo": 56705,
+      "D2_Post_Fault_Hi": 17769,
+      "D3_Run_Fault_Lo": 20647,
+      "D4_Run_Fault_Hi": 25472
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:57:25.142511",
+    "can_id": "0xa0",
+    "name": "M160_Temperature_Set_1",
+    "signals": {
+      "D1_Module_A": 2081.15,
+      "D2_Module_B": -1340.18,
+      "D3_Module_C": 213.68,
+      "D4_Gate_Driver_Board": 162.13
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:04:42.336190",
+    "can_id": "0xa7",
+    "name": "M167_Voltage_Info",
+    "signals": {
+      "D1_DC_Bus_Voltage": 2446.9,
+      "D2_Output_Voltage": 887.17,
+      "D3_VAB_Vd_Voltage": 822.1,
+      "D4_VBC_Vq_Voltage": -2642.4
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:19:49.100000",
+    "can_id": "0xc0",
+    "name": "M192_Command_Message",
+    "signals": {
+      "Torque_Command": -2994.44,
+      "Speed_Command": -6637,
+      "Direction_Command": 0,
+      "Inverter_Enable": 1,
+      "Inverter_Discharge": 1,
+      "Speed_Mode_Enable": 1,
+      "RollingCounter": 3,
+      "Torque_Limit_Command": 1887.26
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:18:15.960918",
+    "can_id": "0xc0",
+    "name": "M192_Command_Message",
+    "signals": {
+      "Torque_Command": 911.34,
+      "Speed_Command": -12860,
+      "Direction_Command": 1,
+      "Inverter_Enable": 0,
+      "Inverter_Discharge": 1,
+      "Speed_Mode_Enable": 1,
+      "RollingCounter": 15,
+      "Torque_Limit_Command": -2699.55
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:23:10.167362",
+    "can_id": "0xa6",
+    "name": "M166_Current_Info",
+    "signals": {
+      "D1_Phase_A_Current": -2279.63,
+      "D2_Phase_B_Current": -1013.48,
+      "D3_Phase_C_Current": -1889.17,
+      "D4_DC_Bus_Current": -3145.55
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:22:20.208356",
+    "can_id": "0x2",
+    "name": "ECU_FAULTS",
+    "signals": {
+      "APPS_BRAKE_AND_ACCEL": 73,
+      "APPS_PEDAL_IMPLAUSIBILITY": 65,
+      "APPS_PEDAL_DISCONNECTED": 84,
+      "BPS_LOW_PRESSURE": 10,
+      "OVER_POWER": 10,
+      "OVER_CURRENT": 19,
+      "CRITICAL_FAULT": 74,
+      "ANY_FAULT": 49
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:04:06.026931",
+    "can_id": "0x6",
+    "name": "Internal_States",
+    "signals": {
+      "PowerDraw_kW": 24,
+      "LV_Voltage_ADC": 78,
+      "Batt_SOC": 82,
+      "InitFinished": 54,
+      "PrechargeComplete": 84,
+      "R2D_Active": 57
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:57:21.304363",
+    "can_id": "0x2",
+    "name": "ECU_FAULTS",
+    "signals": {
+      "APPS_BRAKE_AND_ACCEL": 27,
+      "APPS_PEDAL_IMPLAUSIBILITY": 52,
+      "APPS_PEDAL_DISCONNECTED": 38,
+      "BPS_LOW_PRESSURE": 64,
+      "OVER_POWER": 95,
+      "OVER_CURRENT": 91,
+      "CRITICAL_FAULT": 71,
+      "ANY_FAULT": 58
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:11:12.889235",
+    "can_id": "0xab",
+    "name": "M171_Fault_Codes",
+    "signals": {
+      "D1_Post_Fault_Lo": 52621,
+      "D2_Post_Fault_Hi": 59362,
+      "D3_Run_Fault_Lo": 64452,
+      "D4_Run_Fault_Hi": 47414
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:53:08.533240",
+    "can_id": "0xa5",
+    "name": "M165_Motor_Position_Info",
+    "signals": {
+      "D1_Motor_Angle_Electrical": 2416.1,
+      "D2_Motor_Speed": 20695,
+      "D3_Electrical_Output_Frequency": -3064.54,
+      "D4_Delta_Resolver_Filtered": -888.82
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:40:29.045563",
+    "can_id": "0xaf",
+    "name": "M175_Diag_Data",
+    "signals": {
+      "D1_Buffer_Record": 45,
+      "D2_Buffer_Segment": 5,
+      "D3_Diag_Data_1": -6990,
+      "D4_Diag_Data_2": -23666,
+      "D5_Diag_Data_3": 26215
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:20:33.241744",
+    "can_id": "0xad",
+    "name": "M173_Modulation_And_Flux_Info",
+    "signals": {
+      "D1_Modulation_Index": 0.41,
+      "D2_Flux_Weakening_Output": 2154.08,
+      "D3_Id_Command": -2169.17,
+      "D4_Iq_Command": -622.66
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:44:27.791110",
+    "can_id": "0xae",
+    "name": "M174_Firmware_Info",
+    "signals": {
+      "D1_Project_Code_EEP_Ver": 35975,
+      "D2_SW_Version": 40259,
+      "D3_DateCode_MMDD": 5149,
+      "D4_DateCode_YYYY": 9069
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:01:03.286812",
+    "can_id": "0xa6",
+    "name": "M166_Current_Info",
+    "signals": {
+      "D1_Phase_A_Current": -1226.13,
+      "D2_Phase_B_Current": 1084.12,
+      "D3_Phase_C_Current": -1987.78,
+      "D4_DC_Bus_Current": 1992.19
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:12:37.995260",
+    "can_id": "0xb0",
+    "name": "M176_Fast_Info",
+    "signals": {
+      "Fast_Torque_Command": 1409.57,
+      "Fast_Torque_Feedback": 1322.47,
+      "Fast_Motor_Speed": -12027,
+      "Fast_DC_Bus_Voltage": 2350.13
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:36:33.705731",
+    "can_id": "0xab",
+    "name": "M171_Fault_Codes",
+    "signals": {
+      "D1_Post_Fault_Lo": 16514,
+      "D2_Post_Fault_Hi": 37735,
+      "D3_Run_Fault_Lo": 63141,
+      "D4_Run_Fault_Hi": 29127
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:14:31.147876",
+    "can_id": "0xa5",
+    "name": "M165_Motor_Position_Info",
+    "signals": {
+      "D1_Motor_Angle_Electrical": 2954.24,
+      "D2_Motor_Speed": -18442,
+      "D3_Electrical_Output_Frequency": -470.15,
+      "D4_Delta_Resolver_Filtered": -1642.02
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:23:18.742435",
+    "can_id": "0xaf",
+    "name": "M175_Diag_Data",
+    "signals": {
+      "D1_Buffer_Record": 253,
+      "D2_Buffer_Segment": 2,
+      "D3_Diag_Data_1": 22229,
+      "D4_Diag_Data_2": 29589,
+      "D5_Diag_Data_3": 23575
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:10:43.938106",
+    "can_id": "0xac",
+    "name": "M172_Torque_And_Timer_Info",
+    "signals": {
+      "D1_Commanded_Torque": 3096.86,
+      "D2_Torque_Feedback": -2285.26,
+      "D3_Power_On_Timer": 8590187
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:27:55.033060",
+    "can_id": "0xb0",
+    "name": "M176_Fast_Info",
+    "signals": {
+      "Fast_Torque_Command": -744.46,
+      "Fast_Torque_Feedback": -700.27,
+      "Fast_Motor_Speed": -7665,
+      "Fast_DC_Bus_Voltage": 661.17
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:39:35.276426",
+    "can_id": "0xae",
+    "name": "M174_Firmware_Info",
+    "signals": {
+      "D1_Project_Code_EEP_Ver": 36768,
+      "D2_SW_Version": 54087,
+      "D3_DateCode_MMDD": 19353,
+      "D4_DateCode_YYYY": 45936
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:46:32.369679",
+    "can_id": "0x5",
+    "name": "Sensors_Info",
+    "signals": {
+      "BPS_Raw": 58,
+      "Water_Temp": 46,
+      "R2D_Button": 66,
+      "Prog_Button_1": 11,
+      "Prog_Button_2": 76,
+      "Brake_Press_Bool": 4
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:21:55.064605",
+    "can_id": "0xc1",
+    "name": "M193_Read_Write_Param_Command",
+    "signals": {
+      "D1_Parameter_Address_Command": 38470,
+      "D2_Read_Write_Command": 1,
+      "D3_Data_Command": 27706
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:36:28.254837",
+    "can_id": "0xc1",
+    "name": "M193_Read_Write_Param_Command",
+    "signals": {
+      "D1_Parameter_Address_Command": 60950,
+      "D2_Read_Write_Command": 1,
+      "D3_Data_Command": -24880
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T22:49:15.960758",
+    "can_id": "0x3",
+    "name": "MC_FAULTS",
+    "signals": {
+      "Fault32_MotorOvrSpd": 26,
+      "Fault33_OvrCurr": 58,
+      "Fault34_OvrVolt": 80,
+      "Fault35_InvOvrTemp": 76,
+      "Fault36_AccInputShorted": 5,
+      "Fault37_AccInputOpn": 73,
+      "Fault38_DirectionCommand": 37,
+      "Fault39_InvResponseTimeOut": 54,
+      "Fault40_HW_Gate_DeSat": 46,
+      "Fault41_HardwareOvrCurrent": 0,
+      "Fault42_UnderVolt": 18,
+      "Fault43_CANCmdMsgLost": 19,
+      "Fault44_MotorOvrTemp": 48,
+      "Fault48_BrakeInputShorted": 86,
+      "Fault49_BrakeInputOpn": 11,
+      "Fault50_ModuleA_OvrTemp": 52,
+      "Fault51_ModuleB_OvrTemp": 90,
+      "Fault52_ModuleC_OvrTemp": 84,
+      "Fault53_PCB_OvrTemp": 4,
+      "Fault54_GateDriveBoard1_OvrTemp": 46,
+      "Fault55_GateDriveBoard2_OvrTemp": 65,
+      "Fault56_GateDriveBoard3_OvrTemp": 95,
+      "Fault57_CurrentSensor": 20,
+      "Fault59_HardwareDCBus_OvrVolt": 2,
+      "Fault62_Resolver_NotConn": 13,
+      "ANY_MC_FAULT": 56
+    },
+    "dbc_file": "EV3_Vehicle_Bus.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:13:56.714532",
+    "can_id": "0xae",
+    "name": "M174_Firmware_Info",
+    "signals": {
+      "D1_Project_Code_EEP_Ver": 57237,
+      "D2_SW_Version": 32738,
+      "D3_DateCode_MMDD": 22116,
+      "D4_DateCode_YYYY": 60283
+    },
+    "dbc_file": "RMS.dbc"
+  },
+  {
+    "timestamp": "2025-04-02T23:13:22.855343",
+    "can_id": "0xad",
+    "name": "M173_Modulation_And_Flux_Info",
+    "signals": {
+      "D1_Modulation_Index": 3.06,
+      "D2_Flux_Weakening_Output": 1328.11,
+      "D3_Id_Command": 2514.44,
+      "D4_Iq_Command": -1686.9
+    },
+    "dbc_file": "RMS.dbc"
+  }
+]
