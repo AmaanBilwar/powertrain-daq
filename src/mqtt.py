@@ -8,14 +8,19 @@ import time
 import sqlite3
 import json
 import paho.mqtt.client as mqtt
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 class CANDataMQTTTransmitter:
     def __init__(self, 
                  can_channel='can0', 
                  bitrate=500000, 
-                 mqtt_broker='localhost', 
-                 mqtt_port=1883,
-                 mqtt_topic='fsae/telemetry'):
+                 mqtt_broker=os.getenv('MQTT_BROKER', 'broker.hivemq.com'),
+                 mqtt_port=int(os.getenv('MQTT_PORT', 8883)),  # Default HiveMQ Cloud port is 8883 for TLS
+                 mqtt_topic=os.getenv('MQTT_TOPIC', 'fsae/telemetry')):
         """
         Initialize CAN bus and MQTT client
         
@@ -62,16 +67,27 @@ class CANDataMQTTTransmitter:
         :param password: MQTT broker password
         """
         try:
-            # Optional authentication
+            # Get credentials from environment variables if not provided
+            if not username:
+                username = os.getenv('MQTT_USERNAME')
+            if not password:
+                password = os.getenv('MQTT_PASSWORD')
+            
+            # HiveMQ Cloud requires TLS/SSL
+            self.mqtt_client.tls_set()
+            
+            # HiveMQ Cloud requires authentication
             if username and password:
                 self.mqtt_client.username_pw_set(username, password)
+            else:
+                print("Warning: MQTT credentials not provided. Connection might fail.")
             
             # Connect to broker
             self.mqtt_client.connect(self.mqtt_broker, self.mqtt_port, 60)
             
             # Start the loop
             self.mqtt_client.loop_start()
-            print(f"Connected to MQTT Broker: {self.mqtt_broker}")
+            print(f"Connected to HiveMQ Cloud Broker: {self.mqtt_broker}")
         
         except Exception as e:
             print(f"MQTT Connection Error: {e}")
@@ -160,24 +176,15 @@ class CANDataMQTTTransmitter:
 # Example Usage
 def main():
     try:
-        # Create MQTT transmitter
-        transmitter = CANDataMQTTTransmitter(
-            can_channel='can0',     # Adjust to your CAN interface
-            bitrate=500000,         # Adjust to your CAN bus speed
-            mqtt_broker='localhost',# Replace with your MQTT broker address
-            mqtt_port=1883,         # Default MQTT port
-            mqtt_topic='fsae/telemetry'
-        )
+        # Create MQTT transmitter with defaults from environment variables
+        transmitter = CANDataMQTTTransmitter()
         
-        # Connect to MQTT (optional authentication)
-        transmitter.connect_mqtt(
-            # Uncomment and add credentials if required
-            # username='your_username', 
-            # password='your_password'
-        )
+        # Connect to MQTT using environment variables for authentication
+        transmitter.connect_mqtt()
         
         # Transmit CAN messages for 60 seconds
-        transmitter.transmit_can_messages(duration=60)
+        duration = int(os.getenv('MQTT_DURATION', 60))
+        transmitter.transmit_can_messages(duration=duration)
         
         # Print transmission log
         transmitter.get_transmission_log()
