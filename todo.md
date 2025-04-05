@@ -1,0 +1,4 @@
+- [ ] dump can logs from pi to a db to hold temporarily 
+- [ ] host a server/ backend to process can logs
+- [ ] reformat data for influxdb / save as csv 
+- [ ] use marple sdk to send data to marple  
