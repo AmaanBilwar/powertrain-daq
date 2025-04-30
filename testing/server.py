@@ -5,7 +5,7 @@ import asyncio
 from datetime import datetime
 import logging
 import uvicorn
-from testing.database import init_database, store_can_message
+from database import init_database, store_can_message
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
