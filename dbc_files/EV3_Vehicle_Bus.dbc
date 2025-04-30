@@ -45,6 +45,7 @@ BO_ 2 ECU_FAULTS: 8 Vector__XXX
  SG_ OVER_CURRENT : 5|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ CRITICAL_FAULT : 6|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ ANY_FAULT : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ COOLANT_OVER_TEMP : 8|1@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 3 MC_FAULTS: 8 Vector__XXX
  SG_ Fault32_MotorOvrSpd : 0|1@1+ (1,0) [0|0] "" Vector__XXX
@@ -82,11 +83,13 @@ BO_ 4 APPS_Info: 8 Vector__XXX
 
 BO_ 5 Sensors_Info: 8 Vector__XXX
  SG_ BPS_Raw : 0|16@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Water_Temp : 16|16@1+ (1,0) [0|0] "" Vector__XXX
- SG_ R2D_Button : 32|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Prog_Button_1 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Prog_Button_2 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Brake_Press_Bool : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Water1_Temp_C : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ R2D_Button : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Prog_Button_1 : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Prog_Button_2 : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Brake_Press_Bool : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Water2_Temp_C : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Water3_Temp_C : 32|8@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 6 Internal_States: 8 Vector__XXX
  SG_ PowerDraw_kW : 0|16@1+ (1,0) [0|0] "" Vector__XXX
