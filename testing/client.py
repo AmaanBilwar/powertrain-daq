@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Configuration
 CAN_INTERFACE = 'can0'  # Change this to match your CAN interface
 SERVER_URI = "ws://127.0.0.1:8000/ws"  # Using localhost IP address
-TEST_MODE = True  # Set to True to simulate CAN messages
+TEST_MODE = True  # False # Set to True to simulate CAN messages
 
 async def send_raw_data(websocket, message):
     """Send raw CAN data to the WebSocket server"""
