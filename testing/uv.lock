@@ -26,6 +26,54 @@ wheels = [
 ]
 
 [[package]]
+name = "argparse-addons"
+version = "0.12.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9e/35/33ecca1cdbebc5397a77f66edbc20ab76265176f7e3511b7696008ad9038/argparse_addons-0.12.0.tar.gz", hash = "sha256:6322a0dcd706887e76308d23136d5b86da0eab75a282dc6496701d1210b460af", size = 3780 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c1/41/629e70c4cb32c1ddb88de970cd174bbb43d8241c8e07bdffc62a8280297c/argparse_addons-0.12.0-py3-none-any.whl", hash = "sha256:48b70ecd719054fcb0d7e6f25a1fecc13607aac61d446e83f47d211b4ead0d61", size = 3310 },
+]
+
+[[package]]
+name = "bitstruct"
+version = "8.20.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/37/b7/cc0edea9ed9d8fad97820cb3d38992d5631e5f06d10d1e394148aeaa7797/bitstruct-8.20.0.tar.gz", hash = "sha256:f6b16a93097313f2a6c146640c93e5f988a39c33364f8c20a4286ac1c5ed5dae", size = 35637 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cb/f6/9598c50c432bd56eb301cbf2ef69941141bc5519c728176648a4b3dc54cd/bitstruct-8.20.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:5df3ce5f4dd517be68e4b2d8ab37a564e12d5e24ec29039a3535281174a75284", size = 38313 },
+    { url = "https://files.pythonhosted.org/packages/90/43/0eae530142d0e65cb74e83de79d6c6c55e3c57de0a2d1ec9b7459d1c9afd/bitstruct-8.20.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ac0bb940fa9238c05796d45fb957ddf2e10d82ee8fd8cd43c5e367a9c380b24c", size = 83575 },
+    { url = "https://files.pythonhosted.org/packages/40/30/cb048fa88c276d156a2a7af7f6ec2820c7391f8f7ecec43b945127abf116/bitstruct-8.20.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:73eb7f0b6031c7819c12412c71af07cfac036da22a9245b7a1669a1f11fe1220", size = 77902 },
+    { url = "https://files.pythonhosted.org/packages/d2/e3/6904e2f80c89efeee473bf3539e1f3904c422f7cab0bb86d28124e732fc5/bitstruct-8.20.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:ea7b64a444bf592712593a9f3bf1cb37588fae257aeb40d2ea427e17ef3d690c", size = 76142 },
+    { url = "https://files.pythonhosted.org/packages/17/6a/a1cb10a564bcf522211101c3b023f8a859bda2e1a552d7694935ad208106/bitstruct-8.20.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:c4dad0231810bc3ef4e5154d6d6f7d62cc3efe2b9e9e6126002f105297284af3", size = 81160 },
+    { url = "https://files.pythonhosted.org/packages/e4/18/1b6f22b19e6fb87ed08760576fac092f8a20ff8a2ac2f9eab7e60ae82a38/bitstruct-8.20.0-cp312-cp312-win32.whl", hash = "sha256:8ca1cc21ae72bbefee4471054e6a993b74f4571716eded73c3d3b6280dc831fd", size = 34783 },
+    { url = "https://files.pythonhosted.org/packages/e6/83/37c741d02133ed2e18db015aaa3849bf24946b7903d8b4af3645cfb9233c/bitstruct-8.20.0-cp312-cp312-win_amd64.whl", hash = "sha256:b3732bed3c8b190dee071c2222304ef668f665fbdbeef19c9aeed50fbe1a3d48", size = 36843 },
+    { url = "https://files.pythonhosted.org/packages/4c/a0/45821219ffa1c4d86ec9056d67f9fd4a3226d8b239a55ff0fe06d8e532f1/bitstruct-8.20.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:b62fab3f38c09f5d61c83559cfc495b56de6dc424c3ccb1ff9f93457975b8c25", size = 38293 },
+    { url = "https://files.pythonhosted.org/packages/20/cb/d7c5e919594fbdca797f3e2e227b95c3f70513513c181d405bb641c053f1/bitstruct-8.20.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c4df55aea3bf5c1970174191f04f575d657515b2ff26582e7a6475937b4e8176", size = 83490 },
+    { url = "https://files.pythonhosted.org/packages/d2/15/ccbd6b54c3afd474dbebb9ea7bf02031068fb30c7949bc3134f01d55a937/bitstruct-8.20.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:f44afbce27ca0bd3fa96630c7a240bff167a7b66c05ac12ba9147ec001eee531", size = 77849 },
+    { url = "https://files.pythonhosted.org/packages/44/8c/fa70b395703e155e2b4e1d70310c2b987e8ea388b85ecbb2dbbb80c6dda4/bitstruct-8.20.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:3c3d19f85935613a7db42f0e848e278d33ed2b18629dd5cc0e391d0ee8ddb54b", size = 76195 },
+    { url = "https://files.pythonhosted.org/packages/a6/88/69db802731e023bbc0dd5443b3aeff7266470c51fbcb969936015bc7252d/bitstruct-8.20.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:d3f29bb701916a8bb885ccc0de77c6c4b3eaf81652916b3d0bcd7dd9ebdab799", size = 81220 },
+    { url = "https://files.pythonhosted.org/packages/67/72/611a63dea63bdd0a1d15eb2b8cdee0cb089f010f0a7bb4ba839618316f2b/bitstruct-8.20.0-cp313-cp313-win32.whl", hash = "sha256:a09f81cdeec264349a6e65597329a1cee461218b870f8113848126c2c6729025", size = 34785 },
+    { url = "https://files.pythonhosted.org/packages/66/0a/73564b78aaff494e3bdaf5e4946cabbc41d957d386d92af2123fd2b705f5/bitstruct-8.20.0-cp313-cp313-win_amd64.whl", hash = "sha256:31e33cc7db403cd2441d4d1968c57334b2489ffe123cfc30d26eedf11063288e", size = 36843 },
+]
+
+[[package]]
+name = "cantools"
+version = "40.2.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "argparse-addons" },
+    { name = "bitstruct" },
+    { name = "crccheck" },
+    { name = "diskcache" },
+    { name = "python-can" },
+    { name = "textparser" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/be/e9/1f4195b522fbb4a53e674f2b10334eedd785d9ba243cf7c7349aabee7631/cantools-40.2.1.tar.gz", hash = "sha256:dd3bedf69b0dc450a227099d00a913a8bb8febe4a84415eeb55eb6992265c3e0", size = 1009596 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/56/0e/65a917cba245d676382fec93efe53e885dd1c06aa85aa668788cafd5e169/cantools-40.2.1-py3-none-any.whl", hash = "sha256:1e1feaf281b58735f5473a1de89f7889069e9f9d2196b659bc766ae57d5e3e63", size = 154417 },
+]
+
+[[package]]
 name = "click"
 version = "8.1.8"
 source = { registry = "https://pypi.org/simple" }
@@ -44,6 +92,24 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335 },
+]
+
+[[package]]
+name = "crccheck"
+version = "1.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/50/ee/92daff1ca6f8c31f97afe9666efa6d43c74f7ea0415a04ba19300cefef7c/crccheck-1.3.0.tar.gz", hash = "sha256:5384f437de610ade5c3d8689efc80ccd1267b8c452ade83411fd8500a1024f3e", size = 18222 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f4/2f/93f71642e177f0a1d1f392421e314056a2635ca3524b3c57b005cdd995bd/crccheck-1.3.0-py3-none-any.whl", hash = "sha256:278ec53d6f417f197f7e0e29b485093d4879b0bc7a2d29b657ef8242e633b48d", size = 21556 },
+]
+
+[[package]]
+name = "diskcache"
+version = "5.6.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3f/21/1c1ffc1a039ddcc459db43cc108658f32c57d271d7289a2794e401d0fdb6/diskcache-5.6.3.tar.gz", hash = "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc", size = 67916 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl", hash = "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19", size = 45550 },
 ]
 
 [[package]]
@@ -211,6 +277,7 @@ name = "testing"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "cantools" },
     { name = "fastapi" },
     { name = "python-can" },
     { name = "uvicorn" },
@@ -219,10 +286,20 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "cantools", specifier = ">=40.2.1" },
     { name = "fastapi", specifier = ">=0.115.12" },
     { name = "python-can", specifier = ">=4.5.0" },
     { name = "uvicorn", specifier = ">=0.34.2" },
     { name = "websockets", specifier = ">=15.0.1" },
+]
+
+[[package]]
+name = "textparser"
+version = "0.24.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/64/90/6a829d064411788144dbc5567c0d95e7d0403ad3c372dc9a4b3ea202e26b/textparser-0.24.0.tar.gz", hash = "sha256:56f708e75aa9d002adb76d823ba6ef166d7ecec1e3e4ca4c1ca103f817568335", size = 13545 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/68/f9/a9e18dea98b73f24b5575d742a9ad6d7db0762973429e3c36353dad4dd0d/textparser-0.24.0-py3-none-any.whl", hash = "sha256:379d25cdb21332f403bfa37b9ef11192b7796340d2602d88fc9246bfdba2a1cf", size = 8275 },
 ]
 
 [[package]]
