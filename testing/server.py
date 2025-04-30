@@ -5,6 +5,7 @@ import asyncio
 from datetime import datetime
 import logging
 import uvicorn
+from testing.database import init_database, store_can_message
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -23,6 +24,9 @@ app.add_middleware(
 
 # Store active connections
 active_connections = set()
+
+# Initialize database connection
+db_conn = init_database()
 
 @app.get("/")
 async def root():
@@ -44,8 +48,11 @@ async def websocket_endpoint(websocket: WebSocket):
                 # Add timestamp to the message
                 message['server_timestamp'] = datetime.now().isoformat()
                 
+                # Store message in database
+                store_can_message(db_conn, message)
+                
                 # Log the message
-                logger.info(f"Received CAN message: {message}")
+                logger.info(f"Received and stored CAN message: {message}")
                 
                 # Echo the message back to the client (optional)
                 await websocket.send_text(json.dumps(message))
