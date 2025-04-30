@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 CAN_INTERFACE = 'can0'  # Change this to match your CAN interface
-SERVER_URI = "ws://127.0.0.1:8000/ws"  # Using localhost IP address
-TEST_MODE = True  # Set to True to simulate (fake) CAN messages
+SERVER_URI = os.getenv('SERVER_URI', "ws://127.0.0.1:8000/ws")  # Using localhost IP address
+TEST_MODE = os.getenv('TEST_MODE', True)  # Set to True to simulate (fake) CAN messages
 
 # Global variables for message lookup
 rms_messages = {}
