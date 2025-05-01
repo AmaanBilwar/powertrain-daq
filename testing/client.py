@@ -101,20 +101,19 @@ def decode_can_message(message):
             else:
                 decoded_values = dbc_ev3.decode_message(message.arbitration_id, message.data)
 
-            # Combine signal definitions with actual values
+            # Flatten signal definitions with actual values
             signals_with_values = {}
             for signal_name, signal_info in msg_info['signals'].items():
-                signals_with_values[signal_name] = {
-                    'unit': signal_info['unit'],
-                    'comment': signal_info['comment'],
-                    'value': decoded_values.get(signal_name, 'N/A')  # Get actual value if available
-                }
+                # Create flattened keys for each signal property
+                signals_with_values[f"{signal_name}_value"] = decoded_values.get(signal_name, 'N/A')
+                signals_with_values[f"{signal_name}_unit"] = signal_info['unit'] or 'no unit'
+                signals_with_values[f"{signal_name}_comment"] = signal_info['comment'] or ''
 
             return {
                 'source': msg_info['source'],
                 'message_id': hex(message.arbitration_id),
                 'message_name': msg_info['name'],
-                'signals': signals_with_values,  # Combined signal info and values
+                'signals': signals_with_values,  # Flattened signal info and values
                 'raw_data': message.data.hex(),
                 'dlc': message.dlc,
                 'timestamp': datetime.now().isoformat()
