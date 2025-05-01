@@ -1,10 +1,17 @@
 import sqlite3
 from datetime import datetime
 import json
+import os
 
 def init_database():
     """Initialize the SQLite database and create necessary tables"""
-    conn = sqlite3.connect('can_messages.db')
+    # Create data directory if it doesn't exist
+    data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
+    os.makedirs(data_dir, exist_ok=True)
+    
+    # Connect to database in the data directory
+    db_path = os.path.join(data_dir, 'can_messages.db')
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
     # Create table for CAN messages
