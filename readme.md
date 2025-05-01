@@ -1,67 +1,104 @@
-# DAQ Powertrain Software
+# CAN Data Acquisition System
 
-A comprehensive toolkit for processing, decoding, and analyzing CAN (Controller Area Network) bus data from electric vehicles.
+A real-time CAN bus data acquisition and monitoring system that captures, decodes, and stores CAN messages from both motor controller (RMS) and vehicle bus (EV3) networks.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Data Processing Pipeline](#data-processing-pipeline)
-- [Contributing](#contributing)
+## System Architecture
 
-## Overview
-DAQ Powertrain Software is designed to decode and process CAN bus messages from electric vehicles using DBC (Database CAN) files. It supports parsing raw CAN logs, decoding messages according to DBC specifications, and generating synthetic CAN data for testing purposes.
+The system consists of three main components:
+
+1. **Client (`client.py`)**: Connects to the CAN bus and forwards messages to the server
+2. **Server (`server.py`)**: WebSocket server that receives and processes CAN messages
+3. **Database (`database.py`)**: SQLite database for storing CAN messages and signals
 
 ## Features
-- **CAN Message Decoding**: Parse raw CAN logs and decode messages using multiple DBC files
-- **Synthetic Data Generation**: Generate realistic CAN messages for testing using LLM (Large Language Model) capabilities
-- **MQTT Integration**: Support for MQTT protocol for real-time data transmission
-- **Data Collection**: Tools for collecting and storing CAN data
-- **Multiple DBC Support**: Process signals from various vehicle subsystems using multiple DBC files
 
-## Project Structure
-- `/dbc_files` - Contains DBC files that define the CAN message format
-  - `EV3_Vehicle_Bus.dbc` - Main vehicle bus message definitions
-  - `RMS.dbc` - RMS (Rinehart Motion Systems) controller message definitions
-- `/raw_can_files` - Raw CAN log files for processing
-- `/src` - Source code
-  - `can_decoder.py` - Core functionality for decoding CAN messages
-  - `llm.py` - LLM-based synthetic data generation
-  - `data_collection.py` - Data collection utilities
-  - `mqtt.py` - MQTT communication module
-  - `app.py` - Main application entry point
+- Real-time CAN message capture and decoding
+- Support for both real CAN bus and simulation modes
+- DBC file support for message decoding (RMS and EV3 networks)
+- WebSocket-based communication
+- SQLite database storage
+- Detailed signal information including units and comments
+- Test mode for simulation and development
 
-## Setup
-1. Clone the repository
-2. Install the required dependencies:
-`pip install -r requirements.txt`
-3. Set up environment variables in `.env` file:
-`NEBIUS_API_KEY=your_api_key_here`
+## Components
+
+### Client (`client.py`)
+
+The client component is responsible for:
+- Connecting to the CAN bus interface
+- Decoding CAN messages using DBC files
+- Formatting messages for transmission
+- Supporting both real and simulated CAN messages
+- Automatic reconnection to server
+- Detailed logging of operations
+
+### Server (`server.py`)
+
+The server component provides:
+- WebSocket endpoint for client connections
+- Real-time message processing
+- CORS support for web applications
+- Message storage in database
+- Connection management
+- Error handling and logging
+
+### Database (`database.py`)
+
+The database component handles:
+- SQLite database initialization
+- Two-table structure:
+  - `can_messages`: Stores message metadata
+  - `signals`: Stores individual signal data
+- Transaction-based message storage
+- Query support for recent messages
+
+## Configuration
+
+### Environment Variables
+
+- `SERVER_URI`: WebSocket server address (default: "ws://127.0.0.1:8000/ws")
+- `TEST_MODE`: Enable/disable simulation mode (default: True)
+- `CAN_INTERFACE`: CAN bus interface name (default: 'can0')
+
+### DBC Files
+
+The system requires two DBC files:
+- `RMS.dbc`: Motor controller message definitions
+- `EV3_Vehicle_Bus.dbc`: Vehicle bus message definitions
+
+These should be placed in the `dbc_files` directory.
 
 ## Usage
-### Decoding CAN Messages
-To decode raw CAN messages from a log file:
-`python can_decoder.py`
-This will:
-1. Load DBC files from the `dbc_files` directory
-2. Parse raw CAN log from `raw_can_files/2-13-25.txt`
-3. Decode messages and save to `decoded_can_messages.csv`
 
-### Generating Synthetic Data
-To generate synthetic CAN data for testing:
-`python llm.py`
+### make sure you're in the `testing` dir before proceeding
 
-This will create:
-- `generated_can_messages.json` - JSON format of synthetic CAN messages
-- `mqtt_can_messages.txt` - MQTT-ready format of synthetic messages
+1. Start the server using `python server.py`OR `uv run server.py`
 
-## Data Processing Pipeline
-1. **Raw Data Collection** - CAN messages are collected from the vehicle
-2. **Decoding** - Raw messages are decoded using DBC specifications
-3. **Analysis** - Decoded data can be analyzed or transmitted via MQTT
-4. **Testing** - Synthetic data can be generated for system testing
 
-## Contributing
-Please refer to the project's issue tracker for current development tasks and the `src/to-do.md` file for planned features.
+
+2. Start the client using `python client.py` OR `uv run client.py`:
+
+The system will automatically:
+- Connect to the CAN bus (or run in simulation mode)
+- Decode messages using DBC files
+- Store messages in the database
+- Provide real-time monitoring capabilities
+
+## Dependencies
+
+- Python 3.x
+- `websockets`
+- `can`
+- `cantools`
+- `fastapi`
+- `uvicorn`
+- `sqlite3`
+
+## Logging
+
+Both client and server components include comprehensive logging:
+- Timestamp-based logging
+- Different log levels (INFO, ERROR)
+- Detailed message information
+- Connection status
+- Error tracking
