@@ -6,6 +6,7 @@ from datetime import datetime
 import logging
 import uvicorn
 from database import init_database, store_can_message
+import os
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -26,7 +27,12 @@ app.add_middleware(
 active_connections = set()
 
 # Initialize database connection
-db_conn = init_database()
+try:
+    db_conn = init_database()
+    logger.info("Database initialized successfully")
+except Exception as e:
+    logger.error(f"Failed to initialize database: {e}")
+    raise
 
 @app.get("/")
 async def root():
