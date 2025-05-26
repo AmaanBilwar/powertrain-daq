@@ -1,7 +1,9 @@
 # .env file
-.env
 # virtual env
 .venv/
 
 __pycache__/
 
+data/
+config.bat
+node_modules
