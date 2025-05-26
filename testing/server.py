@@ -42,47 +42,65 @@ async def root():
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
+    """Handle WebSocket connections and messages"""
+    await websocket.accept()
+    logger.info(f"New client connected. Total connections: {len(active_connections) + 1}")
+    active_connections.add(websocket)
+    
     try:
-        await websocket.accept()
-        active_connections.add(websocket)
-        logger.info(
-            f"New client connected. Total connections: {len(active_connections)}"
-        )
-
         while True:
             try:
-                # Receive CAN message from client
+                # Receive message
                 data = await websocket.receive_text()
-                message = json.loads(data)
-
-                # Add timestamp to the message
-                message["server_timestamp"] = datetime.now().isoformat()
-
-                # Store message in database
-                store_can_message(db_conn, message)
-
-                # Log the message
-                logger.info(f"Received and stored CAN message: {message}")
-
-                # Echo the message back to the client (optional)
-                await websocket.send_text(json.dumps(message))
-
-            except json.JSONDecodeError as e:
-                logger.error(f"Invalid JSON received: {e}")
-                await websocket.send_text(json.dumps({"error": "Invalid JSON format"}))
+                
+                try:
+                    # Parse message
+                    message = json.loads(data)
+                    
+                    # Save to database
+                    store_can_message(db_conn, message)
+                    
+                    # Broadcast to other clients
+                    await broadcast_message(message, websocket)
+                    
+                except json.JSONDecodeError as e:
+                    logger.error(f"Error decoding message: {e}")
+                    continue
+                except Exception as e:
+                    logger.error(f"Error processing message: {e}")
+                    continue
+                    
+            except WebSocketDisconnect:
+                logger.info("Client disconnected normally")
+                break
             except Exception as e:
-                logger.error(f"Error processing message: {e}")
-                await websocket.send_text(json.dumps({"error": str(e)}))
-
-    except WebSocketDisconnect:
-        logger.info("Client disconnected")
-    except Exception as e:
-        logger.error(f"WebSocket error: {e}")
+                logger.error(f"WebSocket error: {e}")
+                break
+                
     finally:
         active_connections.remove(websocket)
-        logger.info(
-            f"Client disconnected. Remaining connections: {len(active_connections)}"
-        )
+        logger.info(f"Client disconnected. Remaining connections: {len(active_connections)}")
+
+async def broadcast_message(message: dict, sender: WebSocket):
+    """Broadcast message to all connected clients except sender"""
+    if not active_connections:
+        return
+        
+    disconnected = set()
+    for connection in active_connections:
+        if connection != sender:
+            try:
+                await connection.send_json(message)
+            except WebSocketDisconnect:
+                disconnected.add(connection)
+            except Exception as e:
+                logger.error(f"Error broadcasting message: {e}")
+                disconnected.add(connection)
+    
+    # Clean up disconnected clients
+    for connection in disconnected:
+        active_connections.remove(connection)
+        logger.info(f"Removed disconnected client. Remaining connections: {len(active_connections)}")
 
 
 if __name__ == "__main__":
