@@ -29,8 +29,8 @@ ev3_messages = {}
 try:
     # Get the project root directory (two levels up from the current file)
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    rms_path = os.path.join(project_root, 'dbc_files', 'RMS.dbc')
-    ev3_path = os.path.join(project_root, 'dbc_files', 'EV3_Vehicle_Bus.dbc')
+    rms_path = os.path.join('dbc_files', 'RMS.dbc')
+    ev3_path = os.path.join('dbc_files', 'EV3_Vehicle_Bus.dbc')
     
     logger.info(f"Loading DBC files from: {project_root}")
     logger.info(f"RMS DBC path: {rms_path}")
