@@ -8,6 +8,13 @@ from datetime import datetime
 import sys
 import random
 import cantools
+import sqlite3
+from database import init_database, store_can_message
+from sync_manager import start_sync_manager
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
@@ -16,24 +23,26 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-CAN_INTERFACE = "can0"  # Change this to match your CAN interface
-SERVER_URI = os.getenv(
-    "SERVER_URI", "ws://127.0.0.1:8000/ws"
-)  # Using localhost IP address
-TEST_MODE = os.getenv("TEST_MODE", True)  # Set to True to simulate (fake) CAN messages
+CAN_INTERFACE = os.getenv("CAN_INTERFACE", "can0")  # Change this to match your CAN interface
+SERVER_URI = os.getenv("SERVER_URI", "ws://127.0.0.1:8000/ws")
+TEST_MODE = os.getenv("TEST_MODE", "true").lower() == "true"  # String to boolean conversion
+WEBSOCKET_MODE = os.getenv("WEBSOCKET_MODE", "false").lower() == "true"  # Whether to use websocket server
+SYNC_INTERVAL = int(os.getenv("SYNC_INTERVAL", "300"))  # How often to sync with Marple (in seconds)
 
 # Global variables for message lookup
 rms_messages = {}
 ev3_messages = {}
+db_conn = None
 
 # Load DBC files
 try:
     # Get the project root directory (two levels up from the current file)
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    rms_path = os.path.join("dbc_files", "RMS.dbc")
-    ev3_path = os.path.join("dbc_files", "EV3_Vehicle_Bus.dbc")
+    dbc_dir = os.path.join(project_root, "testing", "dbc_files")
+    rms_path = os.path.join(dbc_dir, "RMS.dbc")
+    ev3_path = os.path.join(dbc_dir, "EV3_Vehicle_Bus.dbc")
 
-    logger.info(f"Loading DBC files from: {project_root}")
+    logger.info(f"Loading DBC files from: {dbc_dir}")
     logger.info(f"RMS DBC path: {rms_path}")
     logger.info(f"EV3 DBC path: {ev3_path}")
 
@@ -157,7 +166,7 @@ def format_can_message(message):
         return {
             "timestamp": decoded_message["timestamp"],
             "source": decoded_message["source"],
-            "message_id": decoded_message["message_id"],
+            "can_id": decoded_message["message_id"],  # Rename message_id to can_id for consistency with database
             "message_name": decoded_message.get("message_name", "Unknown"),
             "signals": decoded_message[
                 "signals"
@@ -177,12 +186,27 @@ async def send_can_message(websocket, message):
     try:
         formatted_message = format_can_message(message)
         await websocket.send(json.dumps(formatted_message))
-        logger.info(f"Sent CAN message: {formatted_message}")
+        logger.info(f"Sent CAN message to server: {formatted_message['message_name']}")
     except Exception as e:
         logger.error(f"Error sending message: {e}")
 
 
-async def simulate_can_messages(websocket):
+async def store_can_message_local(message):
+    """Store CAN message in the local database"""
+    try:
+        formatted_message = format_can_message(message)
+        if formatted_message:
+            # Store in local database
+            store_can_message(db_conn, formatted_message)
+            logger.debug(f"Stored CAN message locally: {formatted_message['message_name']}")
+            return True
+        return False
+    except Exception as e:
+        logger.error(f"Error storing message locally: {e}")
+        return False
+
+
+async def simulate_can_messages(websocket=None):
     """Simulate CAN messages for testing based on DBC specifications"""
     logger.info("Running in test mode - simulating CAN messages")
     try:
@@ -276,9 +300,15 @@ async def simulate_can_messages(websocket):
                 )
             )
 
-            # Send all messages
+            # Process all messages
             for msg in messages:
-                await send_can_message(websocket, msg)
+                # Always store locally
+                await store_can_message_local(msg)
+                
+                # If websocket is available, send to server
+                if websocket:
+                    await send_can_message(websocket, msg)
+                
                 await asyncio.sleep(0.1)  # Small delay between messages
 
             await asyncio.sleep(1)  # Wait 1 second before next batch
@@ -287,8 +317,8 @@ async def simulate_can_messages(websocket):
         logger.error(f"Error in test mode: {e}")
 
 
-async def real_can_listener(websocket):
-    """Listen for real CAN messages and send them to the server"""
+async def real_can_listener(websocket=None):
+    """Listen for real CAN messages, store locally and optionally send to server"""
     try:
         # Initialize CAN bus
         bus = can.interface.Bus(channel=CAN_INTERFACE, bustype="socketcan")
@@ -297,7 +327,12 @@ async def real_can_listener(websocket):
         while True:
             message = bus.recv(timeout=1.0)
             if message is not None:
-                await send_can_message(websocket, message)
+                # Always store locally
+                await store_can_message_local(message)
+                
+                # If websocket is available, send to server
+                if websocket:
+                    await send_can_message(websocket, message)
 
     except Exception as e:
         logger.error(f"Error in CAN listener: {e}")
@@ -306,8 +341,8 @@ async def real_can_listener(websocket):
             bus.shutdown()
 
 
-async def connect_to_server():
-    """Establish connection to the WebSocket server"""
+async def websocket_mode():
+    """Establish connection to the WebSocket server and run in websocket mode"""
     while True:
         try:
             logger.info(f"Attempting to connect to {SERVER_URI}")
@@ -328,17 +363,46 @@ async def connect_to_server():
         await asyncio.sleep(5)
 
 
+async def local_mode():
+    """Run in local mode without WebSocket connection"""
+    if TEST_MODE:
+        await simulate_can_messages()
+    else:
+        await real_can_listener()
+
+
 async def main():
     """Main function to start the client"""
+    global db_conn
+    
     try:
+        # Initialize database
+        db_conn = init_database()
+        logger.info("Database initialized successfully")
+        
+        # Start the sync manager in the background
+        sync_manager = await start_sync_manager(sync_interval=SYNC_INTERVAL)
+        logger.info(f"Sync manager started with interval {SYNC_INTERVAL} seconds")
+        
+        # Log mode configuration
         if TEST_MODE:
             logger.info("Running in TEST MODE - simulating CAN messages")
         else:
             logger.info("Running in REAL MODE - connecting to actual CAN bus")
-        await connect_to_server()
+        
+        if WEBSOCKET_MODE:
+            logger.info("Running in WEBSOCKET MODE - connecting to server")
+            await websocket_mode()
+        else:
+            logger.info("Running in LOCAL MODE - storing data locally only")
+            await local_mode()
+            
     except KeyboardInterrupt:
         logger.info("Client shutting down...")
         sys.exit(0)
+    except Exception as e:
+        logger.error(f"Error in main: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
