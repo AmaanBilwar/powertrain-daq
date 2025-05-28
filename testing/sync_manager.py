@@ -22,8 +22,8 @@ logger = logging.getLogger(__name__)
 # Default paths
 DEFAULT_DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'can_messages.db')
 DEFAULT_SYNC_STATUS_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'last_synced_id.txt')
-DEFAULT_SYNC_INTERVAL = 300  # 5 minutes
-
+DEFAULT_SYNC_INTERVAL = 60  # 1 minute
+    
 class SyncManager:
     def __init__(
         self, 
