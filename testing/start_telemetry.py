@@ -65,7 +65,7 @@ def main():
     print(f"WebSocket Mode: {env.get('WEBSOCKET_MODE', 'false')}")
     print(f"CAN Interface: {env.get('CAN_INTERFACE', 'can0')}")
     print(f"Server URI: {env.get('SERVER_URI', 'ws://127.0.0.1:8000/ws')}")
-    print(f"Sync Interval: {env.get('SYNC_INTERVAL', '300')} seconds")
+    print(f"Sync Interval: {env.get('SYNC_INTERVAL', '180')} seconds")
     print(f"Marple Token: {'Set' if env.get('MARPLE_ACCESS_TOKEN') else 'Not Set'}")
     print("=======================================\n")
     

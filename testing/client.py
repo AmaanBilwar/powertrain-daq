@@ -27,7 +27,7 @@ CAN_INTERFACE = os.getenv("CAN_INTERFACE", "can0")  # Change this to match your 
 SERVER_URI = os.getenv("SERVER_URI", "ws://127.0.0.1:8000/ws")
 TEST_MODE = os.getenv("TEST_MODE", "true").lower() == "true"  # String to boolean conversion
 WEBSOCKET_MODE = os.getenv("WEBSOCKET_MODE", "false").lower() == "true"  # Whether to use websocket server
-SYNC_INTERVAL = int(os.getenv("SYNC_INTERVAL", "300"))  # How often to sync with Marple (in seconds)
+SYNC_INTERVAL = int(os.getenv("SYNC_INTERVAL", "180"))   # every 3 minutes # How often to sync with Marple (in seconds)
 
 # Global variables for message lookup
 rms_messages = {}
