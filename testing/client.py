@@ -216,6 +216,8 @@ async def store_can_message_local(message):
     try:
         formatted_message = format_can_message(message)
         if formatted_message:
+            # Log the formatted message for debugging
+            logger.debug(f"Storing formatted message: {formatted_message}")
             # Store in local database
             store_can_message(db_conn, formatted_message)
             logger.debug(f"Stored CAN message locally: {formatted_message['message_name']}")
@@ -223,6 +225,7 @@ async def store_can_message_local(message):
         return False
     except Exception as e:
         logger.error(f"Error storing message locally: {e}")
+        logger.error(f"Original message: {message}")
         return False
 
 
