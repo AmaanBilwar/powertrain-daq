@@ -2,6 +2,9 @@ import sqlite3
 from datetime import datetime
 import json
 import os
+import logging
+
+logger = logging.getLogger(__name__)
 
 def init_database():
     """Initialize the SQLite database and create necessary tables"""
@@ -54,7 +57,7 @@ def store_can_message(conn, message):
         timestamp = message.get('timestamp', datetime.now().isoformat())
         server_timestamp = message.get('server_timestamp', datetime.now().isoformat())
         can_id = message.get('can_id', '')
-        message_name = message.get('name', '')
+        message_name = message.get('message_name', '')
         dbc_file = message.get('dbc_file', '')
         
         # Insert the main message
@@ -92,6 +95,8 @@ def store_can_message(conn, message):
     except Exception as e:
         # Rollback in case of error
         conn.rollback()
+        logger.error(f"Error storing message in database: {e}")
+        logger.error(f"Message data: {message}")
         raise e
 
 def get_recent_messages(conn, limit=100):
