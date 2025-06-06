@@ -375,34 +375,37 @@ async def main():
     """Main function to start the client"""
     global db_conn
     
-    try:
-        # Initialize database
-        db_conn = init_database()
-        logger.info("Database initialized successfully")
-        
-        # Start the sync manager in the background
-        sync_manager = await start_sync_manager(sync_interval=SYNC_INTERVAL)
-        logger.info(f"Sync manager started with interval {SYNC_INTERVAL} seconds")
-        
-        # Log mode configuration
-        if TEST_MODE:
-            logger.info("Running in TEST MODE - simulating CAN messages")
-        else:
-            logger.info("Running in REAL MODE - connecting to actual CAN bus")
-        
-        if WEBSOCKET_MODE:
-            logger.info("Running in WEBSOCKET MODE - connecting to server")
-            await websocket_mode()
-        else:
-            logger.info("Running in LOCAL MODE - storing data locally only")
-            await local_mode()
+    while True:  # Add outer loop to keep running
+        try:
+            # Initialize database
+            db_conn = init_database()
+            logger.info("Database initialized successfully")
             
-    except KeyboardInterrupt:
-        logger.info("Client shutting down...")
-        sys.exit(0)
-    except Exception as e:
-        logger.error(f"Error in main: {e}")
-        sys.exit(1)
+            # Start the sync manager in the background
+            sync_manager = await start_sync_manager(sync_interval=SYNC_INTERVAL)
+            logger.info(f"Sync manager started with interval {SYNC_INTERVAL} seconds")
+            
+            # Log mode configuration
+            if TEST_MODE:
+                logger.info("Running in TEST MODE - simulating CAN messages")
+            else:
+                logger.info("Running in REAL MODE - connecting to actual CAN bus")
+            
+            if WEBSOCKET_MODE:
+                logger.info("Running in WEBSOCKET MODE - connecting to server")
+                await websocket_mode()
+            else:
+                logger.info("Running in LOCAL MODE - storing data locally only")
+                await local_mode()
+                
+        except KeyboardInterrupt:
+            logger.info("Client shutting down...")
+            sys.exit(0)
+        except Exception as e:
+            logger.error(f"Error in main: {e}")
+            logger.info("Restarting client in 5 seconds...")
+            await asyncio.sleep(5)  # Wait before retrying
+            continue  # Continue the outer loop to restart the client
 
 
 if __name__ == "__main__":
