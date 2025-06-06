@@ -106,7 +106,8 @@ def decode_can_message(message):
     try:
         msg_info = get_message_info(message.arbitration_id)
         if not msg_info:
-            # If not found in either DBC, return raw message
+            # If not found in either DBC, return raw message with empty signals
+            logger.debug(f"Message ID {hex(message.arbitration_id)} not found in DBC files")
             return {
                 "source": "UNKNOWN",
                 "message_id": hex(message.arbitration_id),
@@ -114,6 +115,7 @@ def decode_can_message(message):
                 "raw_data": message.data.hex(),
                 "dlc": message.dlc,
                 "timestamp": datetime.now().isoformat(),
+                "signals": {}  # Add empty signals dictionary
             }
 
         # Try to decode with appropriate DBC
@@ -152,11 +154,29 @@ def decode_can_message(message):
             }
         except Exception as decode_error:
             logger.error(f"Error decoding message {msg_info['name']}: {decode_error}")
-            return None
+            # Return message with empty signals instead of None
+            return {
+                "source": msg_info["source"],
+                "message_id": hex(message.arbitration_id),
+                "message_name": msg_info["name"],
+                "signals": {},  # Empty signals dictionary
+                "raw_data": message.data.hex(),
+                "dlc": message.dlc,
+                "timestamp": datetime.now().isoformat(),
+            }
 
     except Exception as e:
         logger.error(f"Error processing message: {e}")
-        return None
+        # Return message with empty signals instead of None
+        return {
+            "source": "ERROR",
+            "message_id": hex(message.arbitration_id),
+            "message_name": "Error",
+            "signals": {},  # Empty signals dictionary
+            "raw_data": message.data.hex(),
+            "dlc": message.dlc,
+            "timestamp": datetime.now().isoformat(),
+        }
 
 
 def format_can_message(message):

@@ -46,6 +46,7 @@ BO_ 2 ECU_FAULTS: 8 Vector__XXX
  SG_ CRITICAL_FAULT : 6|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ ANY_FAULT : 7|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ COOLANT_OVER_TEMP : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ECU_FAULT : 9|1@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 3 MC_FAULTS: 8 Vector__XXX
  SG_ Fault32_MotorOvrSpd : 0|1@1+ (1,0) [0|0] "" Vector__XXX
@@ -98,6 +99,19 @@ BO_ 6 Internal_States: 8 Vector__XXX
  SG_ InitFinished : 40|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ PrechargeComplete : 41|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ R2D_Active : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Drive_Mode : 43|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Regen_Enabled : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 7 BMS_Info: 8 Vector__XXX
+ SG_ BMS_SOC : 0|8@1+ (0.392156863,0) [0|100] "%" Vector__XXX
+ SG_ BMS_Current : 8|8@1+ (0.78125,0) [0|200] "A" Vector__XXX
+ SG_ BMS_Max_Cell_Volt : 16|8@1+ (0.019607843,0) [0|5] "V" Vector__XXX
+ SG_ BMS_Max_Cell_Temp : 24|8@1+ (0.588235294,0) [0|150] "C" Vector__XXX
+ SG_ BMS_Min_Cell_Volt : 32|8@1+ (0.019607843,0) [0|5] "V" Vector__XXX
+ SG_ BMS_Min_Cell_Temp : 40|8@1+ (0.588235294,0) [0|150] "C" Vector__XXX
+ SG_ BMS_Pow_Lim : 48|8@1+ (1,0) [0|80] "kW" Vector__XXX
+
+
 
 
 
